@@ -15,6 +15,5 @@ public class StringBasic {
         char letter = email.charAt(2);
         String letterString = Character.toString(letter);
 
-
     }
 }
