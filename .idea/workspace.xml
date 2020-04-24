@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc72d173-525e-4169-b8d1-c496cda8bd1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/ArrayBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/FlowSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Scores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/TryCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/TryCatchBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/WhileFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/FunctionBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Oop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/arraylistbasic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/company/MainDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/company/StringBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/company/StringBasic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/StringBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/StringBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/com/company/TryCatchBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/com/company/TryCatchBasic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/TryCatchBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TryCatchBasic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.TryCatchBasic">
+  <component name="RunManager" selected="Application.Oop">
     <configuration name="ArrayBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.ArrayBasic" />
       <module name="HelloWorld" />
@@ -61,8 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlowSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.FlowSwitch" />
+    <configuration name="FunctionBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.FunctionBasic" />
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
@@ -74,21 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ForLoop" />
-      <module name="HelloWorld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Scores" />
+    <configuration name="Oop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Oop" />
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
@@ -113,20 +95,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="arraylistbasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.arraylistbasic" />
+      <module name="HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.FlowSwitch" />
       <item itemvalue="Application.ArrayBasic" />
-      <item itemvalue="Application.ForLoop" />
-      <item itemvalue="Application.Scores" />
       <item itemvalue="Application.TryCatchBasic" />
+      <item itemvalue="Application.arraylistbasic" />
+      <item itemvalue="Application.FunctionBasic" />
+      <item itemvalue="Application.Oop" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Oop" />
+        <item itemvalue="Application.FunctionBasic" />
+        <item itemvalue="Application.arraylistbasic" />
         <item itemvalue="Application.TryCatchBasic" />
         <item itemvalue="Application.ArrayBasic" />
-        <item itemvalue="Application.Scores" />
-        <item itemvalue="Application.ForLoop" />
-        <item itemvalue="Application.FlowSwitch" />
       </list>
     </recent_temporary>
   </component>
@@ -148,22 +143,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="559" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1586107839470" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1586858376184">
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1587722294259">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1586858376184" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1586858376183">
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587722294259" />
+    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1587722294258">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1586858376183" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1586858376182">
+    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587722294258" />
+    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1587722294258">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1586858376182" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1586858376183">
+    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587722294258" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1587722294259">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1586858376183" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587722294259" />
     <state x="341" y="175" key="SettingsEditor" timestamp="1586310981779">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -172,5 +167,16 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="517" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1586830901438" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/arraylistbasic.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
