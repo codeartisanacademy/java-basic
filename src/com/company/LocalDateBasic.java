@@ -17,7 +17,7 @@ public class LocalDateBasic {
         LocalDate endDate = LocalDate.of(2020, Month.APRIL, 10);
         System.out.println(endDate);
         System.out.println(startDate.getYear());
-        //System.out.println(Duration.between(endDate, startDate));
+        System.out.println(Period.between(endDate, startDate).getYears());
 
         // now
         LocalTime now = LocalTime.now();

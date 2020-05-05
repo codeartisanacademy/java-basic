@@ -2,6 +2,7 @@ package com.company;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
@@ -21,7 +22,7 @@ public class BirthdayChecker {
         // you are x years old
         LocalDate today = LocalDate.now();
 
-        System.out.println("You are " + bday.compareTo(today) + " years old");
+        System.out.println("You are " + Period.between(bday, today).getYears() + " years old");
 
         // your were born on Monday / Tuesday ...
         System.out.println("You were born on a " + bday.getDayOfWeek());
